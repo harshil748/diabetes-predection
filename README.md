@@ -31,7 +31,7 @@ This project uses machine learning algorithms to predict whether a patient is li
 
 ## Tech Stack
 
-- **Languages:** Python 
+- **Languages:** Python
 - **Libraries:** scikit-learn, pandas, numpy, matplotlib, seaborn
 - **Deployment:** Streamlit
 
@@ -40,37 +40,43 @@ This project uses machine learning algorithms to predict whether a patient is li
 ## Installation
 
 1. **Clone the repository**
-    ```bash
-    git clone https://github.com/harshil748/diabetes-predection.git
-    cd diabetes-predection
-    ```
+
+   ```bash
+   git clone https://github.com/harshil748/diabetes-predection.git
+   cd diabetes-predection
+   ```
 
 2. **(Optional) Create a virtual environment**
-    ```bash
-    python -m venv venv
-    source venv/bin/activate  # On Windows: venv\Scripts\activate
-    ```
+
+   ```bash
+   python -m venv venv
+   source venv/bin/activate  # On Windows: venv\Scripts\activate
+   ```
 
 3. **Install dependencies**
-    ```bash
-    pip install -r requirements.txt
-    ```
+
+   ```bash
+   pip install -r requirements.txt
+   ```
 
 ---
 
 ## Usage
 
 Run the main script:
+
 ```bash
 python main.py
 ```
 
 Or open the Jupyter notebook:
+
 ```bash
 jupyter notebook diabetes_prediction.ipynb
 ```
 
 If a web interface is available:
+
 ```bash
 streamlit run app.py
 # or
@@ -83,15 +89,15 @@ flask run
 
 - **Source:** [Pima Indians Diabetes Database - Kaggle](https://www.kaggle.com/uciml/pima-indians-diabetes-database)
 - **Features:**
-    - Pregnancies
-    - Glucose
-    - Blood Pressure
-    - Skin Thickness
-    - Insulin
-    - BMI
-    - Diabetes Pedigree Function
-    - Age
-    - Outcome (0 or 1)
+  - Pregnancies
+  - Glucose
+  - Blood Pressure
+  - Skin Thickness
+  - Insulin
+  - BMI
+  - Diabetes Pedigree Function
+  - Age
+  - Outcome (0 or 1)
 
 ---
 
@@ -106,7 +112,7 @@ flask run
 ## Results
 
 | Model               | Accuracy | Precision | Recall | F1-Score |
-|---------------------|----------|-----------|--------|----------|
+| ------------------- | -------- | --------- | ------ | -------- |
 | Logistic Regression | 0.78     | 0.75      | 0.72   | 0.73     |
 | Random Forest       | 0.82     | 0.80      | 0.78   | 0.79     |
 | SVM                 | 0.79     | 0.76      | 0.74   | 0.75     |
@@ -134,7 +140,8 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## Author
 
-**Harshil748**  
+### Harshil748
+
 - [GitHub](https://github.com/harshil748)
 
 ---
